@@ -1,0 +1,102 @@
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+  background: #fff;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: -10px;
+  font-weight: 400;
+}
+
+h3 {
+  color: hsl(14, 45%, 36%);
+}
+
+.prepare {
+  padding: 10px;
+  background-color: hsl(330, 100%, 98%);
+  border-radius: 4px;
+}
+
+.prepare li {
+  padding: 6px;
+  padding-left: 15px;
+}
+
+.prepare li strong {
+  color: hsl(24, 5%, 18%);
+}
+
+.time {
+  color: hsl(332, 51%, 32%);
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 0;
+}
+
+.ingredient ul {
+  padding-left: 20px;
+}
+
+.ingredient li {
+  padding: 6px;
+  padding-left: 15px;
+}
+
+hr {
+  color: hsl(30, 18%, 87%);
+  opacity: 0.2;
+  margin-top: 25px;
+}
+
+.instruction ol {
+  padding-left: 20px;
+}
+
+.instruction li {
+  padding: 6px;
+  padding-left: 15px;
+  opacity: 0.9;
+}
+
+.instruction strong {
+  color: hsl(24, 5%, 18%);
+}
+
+.nutrition p {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  color: hsl(24, 5%, 18%);
+}
+
+.attribution {
+  font-size: 16px;
+  text-align: center;
+  margin: 20px;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
