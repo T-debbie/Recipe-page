@@ -2,6 +2,7 @@ body {
   background-color: hsl(30, 54%, 90%);
   font-family: Outfit;
 }
+
 h1,
 h3 {
   font-family: Young Serif;
@@ -131,4 +132,74 @@ td {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 900px) {
+  .container {
+    margin: 100px auto;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .prepare {
+    margin-top: 15px;
+    padding: 8px;
+    font-size: 12px;
+  }
+  .prepare li {
+    padding: 5px;
+    padding-left: 10px;
+  }
+
+  .time {
+    color: hsl(332, 51%, 32%);
+    font-size: 15px;
+    margin-left: 15px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .ingredient ul {
+    padding-left: 10px;
+  }
+
+  .ingredient li {
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 12px;
+  }
+
+  hr {
+    margin-top: 15px;
+  }
+
+  .instruction ol {
+    padding-left: 10px;
+  }
+
+  .instruction li {
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 12px;
+  }
+
+  .nutrition p {
+    margin-top: 8px;
+    font-size: 12px;
+  }
+
+  td {
+    padding: 10px 100px 10px 10px;
+    font-size: 12px;
+  }
+
+  .attribution {
+    font-size: 10px;
+    margin: 15px;
+  }
 }
